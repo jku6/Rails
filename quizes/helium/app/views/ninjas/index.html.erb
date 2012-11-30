@@ -1,0 +1,12 @@
+<h1>Listing ninjas</h1>
+
+
+
+<ul id="ninjas">
+    <% @ninjas.each do |n| %>
+        <li><%= n.name %></li>
+    <% end %>
+</ul>
+
+<%= paginate @ninjas %>
+

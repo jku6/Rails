@@ -1,0 +1,5 @@
+/*
+ *= require 'thing'
+ *= require_self
+ *= require_tree .
+ */

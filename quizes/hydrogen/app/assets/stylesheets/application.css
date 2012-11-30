@@ -1,0 +1,38 @@
+/*
+ *= require 'css/bootstrap.css'
+ *= require_self
+ *= require_tree .
+ */
+
+
+.top {
+    min-height: 50px;
+}
+.blue {
+    background-color: blue;
+    text-align: center;
+    min-height: 600px;
+}
+.yellow {
+    background-color: yellow;
+     min-height: 400px;
+}
+.green {
+    background-color: green;
+    min-height: 400px;
+}
+.orange {
+    background-color: orange;
+    min-height: 200px;
+}
+.black {
+    background-color: black;
+    min-height: 200px;
+}
+.red {
+    background-color: red;
+    min-height: 200px;
+}
+.containder {
+
+}
