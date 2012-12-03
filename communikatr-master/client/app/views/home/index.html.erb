@@ -1,0 +1,13 @@
+twitter:<%= radio_button_tag 'msgtype', 'twitter' %>
+texting:<%= radio_button_tag 'msgtype', 'texting' %>
+mailmsg:<%= radio_button_tag 'msgtype', 'mailmsg' %>
+<br>
+address:
+<br>
+<%= text_field_tag 'address' %>
+<br>
+message:
+<br>
+<%= text_area_tag 'message' %>
+<br>
+<%= submit_tag 'Send Message!' %>

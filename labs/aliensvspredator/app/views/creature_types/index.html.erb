@@ -1,0 +1,17 @@
+<input class="btn btn-danger" type="button" id="new_creature" value="New Creature" />
+
+<%= form_tag '/creaturetypes', :id => 'creature_form', :remote => true do %>
+    <%= text_field_tag 'name' %>
+    <%= submit_tag 'Create Creature', :class => 'btn btn-primary' %>
+<% end %>
+
+
+
+<ul id="creaturetypes">
+    <% @creature_types.each do |ct| %>
+        <li><%= link_to ct.name, creaturetype_path(ct), :class => 'btn btn-success' %></li>
+    <% end %>
+</ul>
+
+<%= paginate @creature_types %>
+    

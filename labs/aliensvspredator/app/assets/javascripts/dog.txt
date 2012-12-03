@@ -1,0 +1,5 @@
+woof!
+
+http://localhost:3000/assets/dog.txt
+
+This file shows that anything in assets comes into the browser through the assets folder

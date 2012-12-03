@@ -1,0 +1,20 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: mythology_development
+  pool: 5
+  host: localhost
+  username: postgres
+  password: gado595
+
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: mythology_production
+  pool: 5
+  host: localhost
+  username: postgres
+  password: gado595
+
+
