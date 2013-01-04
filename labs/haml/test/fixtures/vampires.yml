@@ -1,0 +1,23 @@
+# == Schema Information
+#
+# Table name: vampires
+#
+#  id         :integer          not null, primary key
+#  name       :string(255)
+#  blood_type :string(255)
+#  team       :string(255)
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  blood_type: MyString
+  team: MyString
+
+two:
+  name: MyString
+  blood_type: MyString
+  team: MyString

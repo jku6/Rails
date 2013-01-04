@@ -1,0 +1,10 @@
+$(function(){
+setInterval(go, 3000);
+});
+
+
+function go()
+{
+$('#selection').empty();
+$('#selection').append("<%=j render :partial => 'yahoo', :locals => {:stocks => @stocks} %>");
+}

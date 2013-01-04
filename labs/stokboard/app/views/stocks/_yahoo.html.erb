@@ -1,0 +1,16 @@
+<h1><%= @symbol %></h1>
+
+<ul>
+    <li><%= number_to_currency @quote %></li>
+  
+</ul>
+
+
+<% @last_trades.each do |symbol, last_trade| %>
+  <h1><%= symbol %></h1>
+  <ul>
+    
+      <li><%= number_to_currency last_trade %></li>
+    
+  </ul>
+<% end %>
